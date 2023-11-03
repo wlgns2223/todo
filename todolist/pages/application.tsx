@@ -293,7 +293,136 @@ export const Application: React.FC = () => {
                         </div>
                     </div>
                 </section>
+                <section className="h-[500px] md:h-[420px] lg:h-[500px] flex flex-col items-center justify-evenly text-center bg-cover bg-center bg-no-repeat bg-fixed bg-[url('https://efefeff.quv.kr/img/t/70/619adde326276_1920.jpg')] text-white px-4 py-16 md:px-0">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="white"
+                        className="w-14 h-14 md:w-16 md:h-16"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+                    </svg>
+                    <p className='text-3xl md:text-3xl lg:text-4xl '>
+                        Please, make what you want.
+                    </p>
+                    <p className='md:text-sm lg:text-base'>
+                        Lorem ipsum dolor sit amet, nemore sapientem ei qui,
+                        <br />
+                        no pri indoctum prodesset, omnis quidam utroque nam ei.
+                    </p>
+                    <button className='h-11 w-28 md:h-8 md:w-20  lg:h-12 lg:w-28 border-white border-2 md:text-xs lg:text-sm font-bold md:py-1 lg:py-2.5 md:px-2 lg:px-6 mt-4'>
+                        Button
+                    </button>
+                </section>
+                <section className='h-[1200px] md:h-[750px] lg:h-[916px] flex flex-col pt-14 md:p-0'>
+                    <div className='h-1/2 md:pt-20 px-4 md:px-24 flex md:flex-row flex-col justify-between'>
+                        <div className="md:w-4/12 h-full bg-contain bg-center md:bg-cover bg-no-repeat bg-[url('https://efefeff.quv.kr/img/t/70/619ae33bd378d_800.png')]">
+                        </div>
+                        <div className='w-full md:w-7/12 h-full flex flex-col justify-center'>
+                            <p className='text-2xl md:text-2xl lg:text-3xl font-bold'>
+                                Please, make what you want.
+                            </p>
+                            <p className='text-xs md:text-sm mt-6'>
+                                Lorem ipsum dolor sit amet, nemore sapientem ei qui,
+                                <br />
+                                no pri indoctum prodesset, omnis quidam utroque nam ei.
+                                <br />
+                                Ne utamur similique repudiandae eum.
+                            </p>
+                        </div>
+                    </div>
+                    <div className='h-1/2 md:pt-20 px-4 md:px-24 flex md:flex-row flex-col justify-between bg-[#F6F6F6]'>
+                        <div className='w-full md:w-7/12 h-full flex flex-col justify-center items-end text-end'>
+                            <p className='text-2xl md:text-2xl lg:text-3xl font-bold'>
+                                Please, make what you want.
+                            </p>
+                            <p className='text-xs md:text-sm mt-6'>
+                                Lorem ipsum dolor sit amet, nemore sapientem ei qui,
+                                <br />
+                                no pri indoctum prodesset, omnis quidam utroque nam ei.
+                                <br />
+                                Ne utamur similique repudiandae eum.
+                            </p>
+                        </div>
+                        <div className="md:w-4/12 h-full bg-contain bg-center md:bg-cover bg-no-repeat bg-[url('https://efefeff.quv.kr/img/t/70/619ae33bd4f6b_800.png')]">
+                        </div>
+                    </div>
+
+                </section>
+                <section className="h-[400px] md:h-80 lg:h-[400px] flex flex-col items-center justify-evenly text-center bg-cover bg-center bg-no-repeat bg-fixed bg-[url('https://efefeff.quv.kr/img/t/70/619aeb3d7b8db_1920.jpg')] text-white py-12 px-4 md:px-0">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-14 h-14 md:w-12 md:h-12 lg:w-14 lg:h-14"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 9.75v6.75m0 0l-3-3m3 3l3-3m-8.25 6a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                    </svg>
+                    <p className='text-3xl md:text-4xl'>
+                        Download
+                    </p>
+                    <button className='h-11 w-44 md:h-10 md:w-40 lg:h-12 lg:w-48 border-white font-bold px-3 py-2 bg-gradient-to-r from-[#FF908A] to-[#9873D1] rounded-full mt-4 text-sm  md:text-base lg:text-lg'>
+                        App Store
+                    </button>
+                    <button className='h-11 w-44 md:h-10 md:w-40 lg:h-12 lg:w-48 border-white font-bold px-3 py-2 text-black rounded-full mt-2 bg-white text-sm md:text-base lg:text-lg'>
+                        Play Store
+                    </button>
+                </section>
+                <section className="h-[330px] md:h-[270px] lg:h-[330px] flex flex-col items-center justify-evenly text-center bg-cover bg-center bg-no-repeat  bg-[url('/images/구글.png')] text-white py-12">
+                </section>
             </main>
+            <footer className='w-full h-auto'>
+                <section className='md:h-[680px] lg:h-[724px] w-full flex justify-center items-center'>
+                    <div className='h-full w-full md:w-1/2 md:mx-auto flex flex-col px-10 py-14 md:py-16 lg:py-14 lg:px-10 items-center md:text-xs lg:text-sm'>
+                        <p className='text-3xl md:text-3xl lg:text-4xl font-bold'>Contact us</p>
+                        <div className='h-[80px] w-full mt-5'>
+                            <p>Name<span className=' ml-1.5 text-red-600 text-lg'>*</span></p>
+                            <input className='w-full h-8 bg-[#ececec] mt-2 px-3 py-1.5 '></input>
+                        </div>
+                        <div className='h-[80px] mt-5 w-full'>
+                            <p>Email<span className=' ml-1.5 text-red-600 text-lg '>*</span></p>
+                            <input className='w-full h-8 bg-[#ececec] mt-2 px-3 py-1.5'></input>
+                        </div>
+                        <div className='h-[80px] mt-5 w-full'>
+                            <p>Phone number</p>
+                            <input className='w-full h-8 bg-[#ececec] mt-2 px-3 py-1.5'></input>
+                        </div>
+                        <div className='mt-5 w-full'>
+                            <p>Comments</p>
+                            <textarea className='w-full h-28 bg-[#ececec] mt-2 flex flex-col px-3 py-1.5'>
+                            </textarea>
+                        </div>
+                        <button className='w-full h-12 mt-8 bg-[#4723bd] flex justify-center text-white items-center text-base'>
+                            Submit
+                        </button>
+                    </div>
+                </section>
+                <section>
+                    <div className='w-full h-56 flex flex-col'>
+                        <div className='h-1/3 flex justify-center items-center'>
+                            <p className='text-2xl font-bold'>Application</p>
+                        </div>
+                        <div className='h-2/3 flex flex-col items-center text-center text-xs md:text-xs lg:text-sm'>
+                            <p>
+                                상호 : 회사명 ｜ 대표이사 : 홍길동 ｜ 개인정보책임자 : 홍길동
+                                <br />
+                                소재지 : 서울특별시 중구 태평로1가 31
+                                <br />
+                                사업자등록번호 : 123-45-67890 ｜ 통신판매번호 : 서초0000호
+                                <br />
+                                전화 : 1234-5678 (상담시간 - 평일 9:30~18:00, 점심시간 - 12:00~13:00)
+                            </p>
+                            <p className='mt-6'>
+                                COPYRIGHT (C) LOGO. All Rights reserved
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </footer>
         </section>
     )
 }
